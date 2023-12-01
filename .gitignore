@@ -1,0 +1,14 @@
+
+*.o
+*.a
+*.obj
+*.so
+*.out
+*.pdb
+*.dll
+*.exe
+
+build/
+bin/
+
+.vscode/
