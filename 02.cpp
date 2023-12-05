@@ -140,7 +140,7 @@ int main(int argc, char const *argv[]) {
 
     int sum1{0};
     int sum2{0};
-    auto games = getGames(readInput("../02.txt"));
+    auto games = getGames(readInput("../inputs/02.txt"));
     
     for(auto game : games) {  
         if(isValidOne(game)) {

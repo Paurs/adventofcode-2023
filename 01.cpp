@@ -67,7 +67,7 @@ std::vector<std::string> replace_digits(const std::vector<std::string>& input) {
 }
 
 int main() {
-    auto input{read_input("../01.txt")};
+    auto input{read_input("../inputs/01.txt")};
     std::cout << get_calibration_sum(input) << std::endl;
     std::cout << get_calibration_sum(replace_digits(input)) << std::endl;
     

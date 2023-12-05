@@ -161,7 +161,7 @@ auto solveTwo(const std::vector<std::string> &input) {
 
 int main(int argc, char const *argv[])
 {
-    std::cout << "Part 1: " << solveOne(readInput("../03.txt")) << std::endl;
-    std::cout << "Part 2: " << solveTwo(readInput("../03.txt")) << std::endl;
+    std::cout << "Part 1: " << solveOne(readInput("../inputs/03.txt")) << std::endl;
+    std::cout << "Part 2: " << solveTwo(readInput("../inputs/03.txt")) << std::endl;
     return 0;
 }
